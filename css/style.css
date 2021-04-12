@@ -124,6 +124,7 @@ font-weight: 700;
 
 .dropdown{
   float: left;
+  overflow: visible;
 }
 
 .dropdown #dropbtn {
