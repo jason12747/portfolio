@@ -10,13 +10,22 @@
   </head>
   <body>
     <a class = "skip" href="#main">Skip to Main Content</a>
+    <div class="title"><a href="index.html"><h1>Just Another EDM Lover</h1></a></div>
     <nav>
-      <div class="title"><a href="index.html">Just Another EDM Lover</a></div>
       <ul>
         <li><a class = "current" href="index.html">Home</a></li>
-        <li><a href="about.html">About</a></li>
         <li><a href="beginners.html">Intro to EDM</a></li>
-        <li><a href="house.html">House</a></li>
+        <li class="dropdown">
+          <button id="dropbtn">Genres</button>
+          <div class="dropdown-content">
+            <a href="house.html">House</a>
+            <a href="futurebass.html">Future Bass</a>
+            <a href="meldub.html">Melodic Dubstep</a>
+            <a href="dnb.html">Drum & Bass (DnB)</a>
+            <a href="electro.html">Electro</a>
+            <a href="pop.html">Pop</a>
+          </div>
+        </li>
       </ul>
     </nav>
 
@@ -33,7 +42,8 @@
         <div class ="beginners">
           <div class="portfolio-thumb">
             <a href="beginners.html">
-              <div class="images/crop4.jpg" alt="Portfolio">
+              <div class="text-overlay">
+                <img src="images/crop4.jpg" alt="Portfolio">
                 <div class="beginners-guide"><h1>Beginner's Guide</h1></div>
               </div>
             </a>
