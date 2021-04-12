@@ -118,13 +118,12 @@ text-align: center;
 text-transform: uppercase;
 letter-spacing: 5px;
 color: #333;
-font-size: 18px;
+font-size: 26px;
 font-weight: 700;
 }
 
 .dropdown{
   float: left;
-  overflow: hidden;
 }
 
 .dropdown #dropbtn {
