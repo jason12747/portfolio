@@ -188,7 +188,7 @@ font-weight: 700;
 .aboutmecontent{
   grid-column: 2/3;
   background-color: #141414;
-  height: 800px;
+  height: 6000px;
   width: 325px;
   padding: 30px;
   text-align: center;
@@ -361,7 +361,7 @@ background: url('../images/header-four-bg.jpg') no-repeat;
   background-repeat: no-repeat; /* Parallax effect */
   background-size: cover;       /* Parallax effect */
   color: white;
-  height: 1300px;                /* Parallax effect */
+  height: 1920px;                /* Parallax effect */
   background-image: url("../images/porter2.jpg");
   background-attachment: fixed;
   background-position: center;
@@ -543,7 +543,7 @@ footer {
 @media screen and (min-width: 750px) {
 
   .aboutmecontent{
-    height: 800px;
+    height: 1400px;
     width: 750px;
   }
 
