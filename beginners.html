@@ -9,17 +9,64 @@
     <title>Beginner's Guide</title>
   </head>
   <body>
+    <a class = "skip" href="#about_header">Skip to Main Content</a>
+    <div class="title"><a href="index.html"><h1>Just Another EDM Lover</h1></a></div>
     <nav>
-      <div class="title"><a href="index.html">Just Another EDM Lover</a></div>
       <ul>
         <li><a href="index.html">Home</a></li>
-        <li><a href="about.html">About</a></li>
         <li><a class = "current" href="beginners.html">Intro to EDM</a></li>
-        <li><a href="house.html">House</a></li>
+        <li class="dropdown">
+          <button id="dropbtn">Genres</button>
+          <div class="dropdown-content">
+            <a href="house.html">House</a>
+            <a href="meldub.html">Melodic Dubstep</a>
+            <a href="beginners.html">Future Bass</a>
+            <a href="beginners.html">Drum & Bass (DnB)</a>
+            <a href="beginners.html">Electro</a>
+            <a href="beginners.html">Pop</a>
+          </div>
+        </li>
       </ul>
     </nav>
 
-      
+    <section id="about_header">
+      <div class = "about-text">
+        <h1 class = "about-head">About Me</h1>
+        <p class = "about-subtext">How I Got Started + Intro to EDM!</p>
+      </div>
+      <main class="house_content">
+
+        <div class="aboutmecontent text">
+          <a id="aboutmecontent">
+            <h2>My Journey</h2>
+            <p>As someone who has been classically trained in piano my whole life, it is quite odd to think that I would be so interested in heavy bass and digital music with such danceability. To be frank, I'm not sure where it comes from either. But in seventh grade, I discovered a pioneer in the EDM scene – Skrillex. A complete, polar opposite of my favorite romantic classical composer, Chopin. But geniuses nonetheless in music. Skrillex single-handedly exposed me to other artists popular at the time, including the Chainsmokers, Dillon Francis, Calvin Harris. Soon it seemed like the world was catching up, with more and more dance-filled pop songs such as "Titanium" by David Guetta, "Don't You Worry Child" by Swedish House Mafia, etc. who all broke onto the scene so quickly. My taste in music changed for a while in high school as I experimented with more acoustic, indie, alt-rock artists and genres. However, everything would come full circle as I stepped into the Michigan party scene during Welcome Week. Now I crave EDM festivals after COVID is over! Join me on my journey as I discover more and more music, and feel free to follow my playlist.<br></br></p>
+            <iframe src="https://open.spotify.com/embed/playlist/5pG2uj9NXM0dw3jt6xP60B" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+            <h2>Intro to EDM</h2>
+            <p>While the term "EDM" has been a buzz term for the last few years, electronic dance music has been here for decades. And no matter how you slice it, we can't see the term EDM and lump every style and artist that puts out electronic music into one pot. It does a disservice to the individuals making the music, and the people who have been documenting the music. We're at a crossroads, though; we are documenting the EDM scene, but want people to know that the world of electronic dance music is more than just the DJs on the Ultra main stage. You can't really blame the outside media for any confusion with the term EDM, though - if no one is giving them a simple guide to differentiate dubstep from house, how can you get so cross when they mess a term up?  The onus is on us to provide them with some guidance. And while this guide isn't a complete beginning-to-end picture of each genre, we've provided snapshots of each of the more popular styles of EDM for those seeking guidance to explore, to make more informed choices for festivals, or just to avoid embarrassment in conversation. In this guide, you'll find some of the most well-known genres in EDM today, with a listing of notable subgenres, artists, and labels within each, as well as examples (both old and new) of each genre's sound. Take your time and enjoy your journey through our comprehensive guide of EDM genres: House, Melodic Dubstep, Future Bass, Drum and Bass, Electro, Pop.</p>
+          </a>
+        </div>
+      </section>
+
+    <main id="main">
+      <div class="contact_info">
+          <p><h1 class = "contact_h1">Send recommendations or any questions down below!</h1></p>
+          <div class="contact_form">
+            <form action="https://formspree.io/f/xrgrbvqa" method="POST">
+                <fieldset>
+                  <label for="name">NAME</label>
+                  <input type="text" id="name" name="name" placeholder="Your name..">
+                  <label for="email">EMAIL</label>
+                  <input type="email" id="email" name="email" placeholder="Your email..">
+                  <label for="subject">SUBJECT</label>
+                  <input type="text" id="subject" name="subject" placeholder="Your subject..">
+                  <label for="message">MESSAGE</label>
+                  <textarea id="message" name="message" placeholder="Write something.." style="height:200px"></textarea>
+                  <input type="submit" value="Submit">
+                </fieldset>
+              </form>
+            </div>
+      </div>
+
   </body>
 
   <footer>
